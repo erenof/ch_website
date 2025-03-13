@@ -1,53 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
     <title>CH Aparotología Estetica</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div class="nav__header">
-            <div class="nav__logo">
-                <a href="#" class="logo">CH Aparatología Estética</a>
-            </div>
-            <div class="nav__menu__btn" id="menu-btn">
-                <i class="ri-menu-line"></i>
-            </div>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">CH Aparatología Estética</a>
         </div>
-        <ul class="nav__links" id="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#product">Products</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="nav__search" id="nav-search">
-            <input type="text" placeholder="Search">
-            <span><i class="ri-search-2-line"></i></span>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
         </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search" />
+        <span><i class="ri-search-2-line"></i></span>
+      </div>
     </nav>
 
     <header class="section__container header__container" id="home">
-        <div class="header__image">
-            <img src="assets/centro_estetica.jpg" alt="header">
+      <div class="header__image">
+        <img src="assets/centro_estetica.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Brindale a tus pacientes lo mejor en tecnología.</h1>
+          <p>
+            Impulsa tu negocio con la mejor aparatología estética. Te asesoramos
+            y te acompañamos en tu proyecto para que alcances el éxito con
+            tecnología de vanguardia. ¡Contáctanos hoy!
+          </p>
         </div>
-        <div class="header__content">
-            <div>
-                <h1>Brindale a tus pacientes lo mejor en tecnología.</h1>
-                <p>
-                    Impulsa tu negocio con la mejor aparatología estética. Te asesoramos y te acompañamos en tu proyecto para que alcances el éxito con 
-                    tecnología de vanguardia. ¡Contáctanos hoy!
-                </p>
-            </div>
-
-        </div>
+      </div>
     </header>
 
+    <section class="section__container deals__container">
+        <div class="deals__cards">
+            <h2 class="section__header">Ofertas 🔥 especiales</h2>
+            <p>Venta minorista en línea directa a los clientes.</p>
+        </div>
+        <div class="deals__card">
+            <span><i class="ri-cash-line"></i></span>
+            <h4>10% de reintegro</h4>
+            <p>Obtene un 10% de descuento al comprar combos de máquinas.</p>
+        </div>
+        <div class="deals_card">
+            <span><i class="ri-calendar-schedule-line"></i></span>
+            <h4>Garantía de 30 días en equipos nuevos.</h4>
+            <p>¡Compra con confianza! Todos nuestros productos nuevos cuentan con una garantía de 30 días para tu tranquilidad.</p>
+        </div>
+        <div class="deals_card">
+            <span><i class="ri-money-dollar-circle-line"></i></span>
+            <h4>Ahorrá dinero</h4>
+            <p>¡Ahorrá más con nosotros! Nuestros equipos de calidad te ofrecen el mejor rendimiento al mejor precio. ¡Invertí inteligente y gasta menos!</p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
