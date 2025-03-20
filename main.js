@@ -61,3 +61,8 @@ ScrollReveal().reveal(".about__card", {
   interval:500,
   delay: 500,
 })
+
+// Configuración swiper sección opinión clientes
+const swiper = new Swiper(".swiper", {
+  loop: true,
+})
